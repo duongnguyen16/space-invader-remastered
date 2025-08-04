@@ -696,7 +696,7 @@ def switch(value):
 
 
 def chance(perhundred):
-    if 1 == random.randint(1, 100 / perhundred):
+    if 1 == random.randint(1, int(100 / perhundred)):
         return True
     else:
         return False
